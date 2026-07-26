@@ -17,7 +17,33 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
-<body>
-    
+<body class="inter">
+    <!-- NAV Bar -->
+    <nav
+      class="px-5 py-4 sm:px-50 sm:py-4 flex justify-between items-center bg-[#1A0B2E] text-white max-w-400 mx-auto"
+    >
+      <p>
+        <span class="text-4xl font-extrabold">Tech</span
+        ><span
+          class="text-4xl font-extrabold bg-linear-[5deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent"
+          >Wave</span
+        >
+      </p>
+      <ul class="hidden sm:flex gap-8">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Episodes</a></li>
+        <li><a href="#">Host</a></li>
+      </ul>
+      <button
+        class="hidden sm:block bg-linear-[35deg] from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-4 py-3 rounded-3xl transition-transform duration-300 hover:scale-105"
+      >
+        <a class="font-semibold" href="#">Subscribe</a>
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <button class="block sm:hidden">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </nav>
 </body>
 </html>
